@@ -1,0 +1,16 @@
+#!bin/bash
+
+read -p "Qual o seu nome: " nome
+clear
+read -p "Qual a sua idade: " idade
+clear
+read -p "Qual a sua cidade: " cidade
+clear
+read -p "Qual o seu estado: " estado
+clear
+
+echo "Ola, $nome que possui $idade anos e que mora em $cidade no estado de $estado"
+
+read -s -ln "Digite uma tecla Para Sair...."
+
+exit 0

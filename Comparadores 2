@@ -1,0 +1,26 @@
+#!bin/bash
+
+# Utilizando "Else" & "Elif"
+
+if [ $# -ne 1 ];
+then
+    echo "Utilizacao $0 NUMERO"
+    echo "Onde, NUMERO = 1, 2 ou 3"
+    exit 1
+fi
+
+if[ $1 -eq 1 ];
+then
+    echo "Parametro 1 igual a UM"
+elif [ $1 -eq 2 ];
+then
+    echo "Parametro 1 igua a DOIS"
+elif [ $1 -eq 3 ];
+then
+    echo "Parametro 1 igua a TRES"
+else
+    echo "..."
+    echo "Parametro diferente de 1, 2"
+fi
+
+exit 0

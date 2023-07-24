@@ -1,0 +1,19 @@
+#!bin/bash
+ 
+ produto="Notebook Dell"
+ memoria=8
+ preco=3500
+
+#não utilizar estes caracteres: +=/*&-..
+
+ echo "Produto: $produto"
+ echo "Memoria: $memoria GB"
+ echo "Preco  : R$ $preco"
+
+var_ls='ls'
+echo "O resultado do ls: $var_ls"
+echo
+echo  "ls ${var_ls}ls"
+
+echo "${produto}..."
+

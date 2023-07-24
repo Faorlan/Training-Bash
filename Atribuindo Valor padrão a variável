@@ -1,0 +1,5 @@
+#!bin/bash
+
+nome=${1-"AquiVaiOSeuNome"}
+echo "Ola, $nome"
+exit 0
